@@ -1,0 +1,240 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.travelport.ntac:catalog-atomic-air-price-ndc:war:6.10.1.8.4-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.powermock:powermock-module-junit4:jar -> version ${powermock.version} vs 1.6.4 @ line 468, column 15
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.powermock:powermock-api-mockito:jar -> version ${powermock.version} vs 1.6.4 @ line 474, column 15
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.powermock:powermock-api-mockito:jar -> version ${powermock.version} vs 1.7.0 @ line 515, column 15
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.powermock:powermock-module-junit4:jar -> version ${powermock.version} vs 1.7.0 @ line 527, column 15
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 644, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------< com.travelport.ntac:catalog-atomic-air-price-ndc >----------
+[INFO] Building NDC Price Atomic Implementation 6.10.1.8.4-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[WARNING] The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.5.201505241946:prepare-agent (default) @ catalog-atomic-air-price-ndc ---
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/junit/junit/4.8.2/junit-4.8.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/junit/junit/4.8.2/junit-4.8.2.pom (1.5 kB at 1.1 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (3.9 kB at 5.1 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (4.1 kB at 4.8 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (2.7 kB at 3.1 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-parent/7/maven-parent-7.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-parent/7/maven-parent-7.pom (21 kB at 20 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom (2.3 kB at 2.1 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom (1.9 kB at 2.2 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom (1.4 kB at 2.2 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom (2.0 kB at 2.8 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom (15 kB at 12 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom (1.6 kB at 2.1 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom (3.5 kB at 3.3 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom (1.9 kB at 2.9 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom (3.2 kB at 3.5 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom (8.2 kB at 10 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.pom (4.5 kB at 6.0 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom (1.4 kB at 1.8 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom (9.6 kB at 12 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-parent/10/maven-parent-10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-parent/10/maven-parent-10.pom (32 kB at 32 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-project/2.0.10/maven-project-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-project/2.0.10/maven-project-2.0.10.pom (2.8 kB at 3.7 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven/2.0.10/maven-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven/2.0.10/maven-2.0.10.pom (24 kB at 18 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-settings/2.0.10/maven-settings-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-settings/2.0.10/maven-settings-2.0.10.pom (2.2 kB at 3.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-model/2.0.10/maven-model-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-model/2.0.10/maven-model-2.0.10.pom (3.3 kB at 3.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.pom (1.4 kB at 2.0 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-profile/2.0.10/maven-profile-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-profile/2.0.10/maven-profile-2.0.10.pom (2.1 kB at 2.8 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.10/maven-artifact-manager-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-artifact-manager/2.0.10/maven-artifact-manager-2.0.10.pom (2.7 kB at 3.7 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.10/maven-repository-metadata-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-repository-metadata/2.0.10/maven-repository-metadata-2.0.10.pom (2.3 kB at 3.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-artifact/2.0.10/maven-artifact-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-artifact/2.0.10/maven-artifact-2.0.10.pom (1.6 kB at 2.1 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.10/maven-plugin-registry-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-plugin-registry/2.0.10/maven-plugin-registry-2.0.10.pom (2.0 kB at 2.7 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.10/maven-plugin-api-2.0.10.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/maven-plugin-api/2.0.10/maven-plugin-api-2.0.10.pom (1.5 kB at 1.9 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom (1.6 kB at 2.2 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom (18 kB at 14 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.pom (1.6 kB at 1.8 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.pom (3.7 kB at 4.5 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.12/plexus-utils-1.5.12.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.12/plexus-utils-1.5.12.pom (5.6 kB at 7.8 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.pom (2.2 kB at 2.9 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom (738 B at 817 B/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/apache/1/apache-1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/apache/1/apache-1.pom (3.4 kB at 4.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom (7.8 kB at 11 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-codec/commons-codec/1.2/commons-codec-1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-codec/commons-codec/1.2/commons-codec-1.2.pom (3.8 kB at 3.7 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.pom (6.1 kB at 8.3 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sitetools/1.1.2/doxia-sitetools-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sitetools/1.1.2/doxia-sitetools-1.1.2.pom (15 kB at 17 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.pom (3.0 kB at 2.6 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.pom (1.6 kB at 1.9 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-modules/1.1.2/doxia-modules-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-modules/1.1.2/doxia-modules-1.1.2.pom (2.4 kB at 2.9 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.pom (5.5 kB at 6.0 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.pom (1.1 kB at 1.3 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.12/plexus-components-1.1.12.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.12/plexus-components-1.1.12.pom (3.0 kB at 3.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.pom (2.0 kB at 2.5 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-20/plexus-container-default-1.0-alpha-20.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-20/plexus-container-default-1.0-alpha-20.pom (3.0 kB at 3.6 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-containers/1.0-alpha-20/plexus-containers-1.0-alpha-20.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-containers/1.0-alpha-20/plexus-containers-1.0-alpha-20.pom (1.9 kB at 2.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-utils/1.3/plexus-utils-1.3.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-utils/1.3/plexus-utils-1.3.pom (1.0 kB at 1.2 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-classworlds/1.2-alpha-7/plexus-classworlds-1.2-alpha-7.pom (2.4 kB at 3.1 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom (7.7 kB at 7.6 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/velocity/velocity/1.5/velocity-1.5.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/velocity/velocity/1.5/velocity-1.5.pom (7.8 kB at 8.6 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-collections/commons-collections/3.1/commons-collections-3.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-collections/commons-collections/3.1/commons-collections-3.1.pom (6.1 kB at 6.6 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-collections/commons-collections/3.2/commons-collections-3.2.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-collections/commons-collections/3.2/commons-collections-3.2.pom (11 kB at 11 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946.pom (2.9 kB at 4.3 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.pom (1.2 kB at 1.6 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.pom (2.0 kB at 2.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/ow2/asm/asm-parent/5.0.1/asm-parent-5.0.1.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/ow2/asm/asm-parent/5.0.1/asm-parent-5.0.1.pom (5.5 kB at 6.8 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.pom
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.pom (1.4 kB at 2.0 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/junit/junit/4.8.2/junit-4.8.2.jar
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (39 kB at 26 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (38 kB at 24 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (43 kB at 25 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar (9.8 kB at 4.5 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar (13 kB at 5.6 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar (11 kB at 4.5 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar (17 kB at 5.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/junit/junit/4.8.2/junit-4.8.2.jar (237 kB at 62 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 60 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-codec/commons-codec/1.2/commons-codec-1.2.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.jar (158 kB at 31 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-codec/commons-codec/1.2/commons-codec-1.2.jar (30 kB at 5.3 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.jar (50 kB at 7.9 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar (305 kB at 47 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-lang/commons-lang/2.4/commons-lang-2.4.jar (262 kB at 40 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.jar (15 kB at 2.1 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar (11 kB at 1.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/velocity/velocity/1.5/velocity-1.5.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.jar (52 kB at 7.0 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-collections/commons-collections/3.2/commons-collections-3.2.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.jar (37 kB at 4.8 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar (7.7 kB at 971 B/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar (91 kB at 9.9 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar (1.2 MB at 125 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar (189 kB at 19 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/oro/oro/2.0.8/oro-2.0.8.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/apache/velocity/velocity/1.5/velocity-1.5.jar (392 kB at 37 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar (0 B at 0 B/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar (38 kB at 3.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-digester/commons-digester/1.6/commons-digester-1.6.jar (168 kB at 15 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/oro/oro/2.0.8/oro-2.0.8.jar (65 kB at 5.4 kB/s)
+[INFO] Downloading from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/commons-collections/commons-collections/3.2/commons-collections-3.2.jar (571 kB at 46 kB/s)
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.jar (133 kB at 11 kB/s)
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.agent/0.7.5.201505241946/org.jacoco.agent-0.7.5.201505241946-runtime.jar (288 kB at 21 kB/s)
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar (140 kB at 10 kB/s)
+[INFO] Downloaded from new.nexus.repo.plugin: http://maven-repo2.tvlport.com:8082/repository/maven-public/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar (380 kB at 25 kB/s)
+[INFO] argLine set to -javaagent:D:\\maven_new_repo_v6\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.5.201505241946\\org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=D:\\Ntac_Workspace_6\\catalog-atomic-air-price-ndc\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ catalog-atomic-air-price-ndc ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 20 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ catalog-atomic-air-price-ndc ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 37 source files to D:\Ntac_Workspace_6\catalog-atomic-air-price-ndc\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:21 min
+[INFO] Finished at: 2019-11-01T17:06:32+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project catalog-atomic-air-price-ndc: Compilation failure
+[ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

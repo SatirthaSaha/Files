@@ -1,0 +1,66 @@
+mvn test -Dtest=NDCScenarioTest -Dtest-automation.recordMode=RECORD -Dtest-automation.carrierCode=QF -Dtest-automation.testScenario=Shop#oneway_shop_QF
+
+
+Command to debug:
+mvn test -Dtest=NDCScenarioTest -Dtest-automation.recordMode=PLAYBACK -Dtest-automation.carrierCode=QF -Dtest-automation.testScenario=Shop#oneway_shop_QF -Dmaven.surefire.debug
+
+<ctlg-0600:CatalogOffering id="QF117">
+         <ctlg-0600:Identifier authority="QF">WEZBNUY4NEI3LUJFRDctNDlCMS04Mzk5MS0xMTd8WEZBNUY4NEI3LUJFRDctNDlCMS04Mzk5fDIwMTktMTEtMDZUMDY6Mzc6Mjh8QURUOlhGQTVGODRCNy1CRUQ3LTQ5QjEtODM5OTEtMTE3LTF8UUY=</ctlg-0600:Identifier>
+         <ctlg-0600:ProductOptions sequence="1">
+            <ctar-0600:ProductAir totalDuration="PT9H40M" id="p0">
+               <ctar-0600:FlightSegment id="1" sequence="1">
+		<ctar-0600:Flight distance="456"
+                        duration="PT1H35M"
+                        carrier="QF"
+                        number="0445"
+                        equipment="73H"
+                        id="seg_23">
+         <ctar-0600:DepartureDetail terminal="3" location="SYD" date="2019-12-07" time="15:30:00"/>
+         <ctar-0600:ArrivalDetail terminal="1" location="MEL" date="2019-12-07" time="17:05:00"/>
+      </ctar-0600:Flight>
+
+                  
+               </ctar-0600:FlightSegment>
+               <ctar-0600:FlightSegment id="2" sequence="2">
+                  <ctar-0600:FlightID FlightRef="seg_23"/>
+               </ctar-0600:FlightSegment>
+               <ctar-0600:PassengerFlight passengerQuantity="1" passengerTypeCode="ADT">
+                  <ctar-0600:FlightProduct segmentSequence="1 2"
+                                           classOfService="S"
+                                           cabin="Economy"
+                                           fareBasisCode="SSOSG"
+                                           fareType="PublicFare">
+                     <ctbr-0600:Brand name="Economy Saver"/>
+                  </ctar-0600:FlightProduct>
+               </ctar-0600:PassengerFlight>
+            </ctar-0600:ProductAir>
+         </ctlg-0600:ProductOptions>
+         <c-0600:PriceDetail currencyCode="AUD">
+            <c-0600:Base>637.00</c-0600:Base>
+            <c-0600:TotalTaxes>99.34</c-0600:TotalTaxes>
+            <c-0600:TotalFees>0.00</c-0600:TotalFees>
+            <c-0600:TotalPrice>736.34</c-0600:TotalPrice>
+            <ctar-0600:PriceBreakdownAir quantity="1" requestedPassengerType="ADT">
+               <c-0600:Amount currencyCode="AUD">
+                  <c-0600:Base>637.00</c-0600:Base>
+                  <c-0600:TaxesDetail>
+                     <c-0600:TotalTaxes>99.34</c-0600:TotalTaxes>
+                     <c-0600:Tax taxCode="QR" description="PASSENGER SERVICE CHARGE DOMESTIC DEPARTURE">9.14</c-0600:Tax>
+                     <c-0600:Tax taxCode="QR" description="PASSENGER SERVICE CHARGE DOMESTIC ARRIVAL">4.78</c-0600:Tax>
+                     <c-0600:Tax taxCode="WY"
+                                 description="PASSENGER SERVICES CHARGE ARRIVAL INTERNATIONAL">32.22</c-0600:Tax>
+                     <c-0600:Tax taxCode="L7" description="AIRPORT DEVELOPMENT LEVY">11.60</c-0600:Tax>
+                     <c-0600:Tax taxCode="OP" description="AVIATION LEVY">6.50</c-0600:Tax>
+                     <c-0600:Tax taxCode="SG" description="PASSENGER SERVICE AND SECURITY FEE PSSF">35.10</c-0600:Tax>
+                  </c-0600:TaxesDetail>
+                  <c-0600:FeesDetail>
+                     <c-0600:TotalFees>0.00</c-0600:TotalFees>
+                  </c-0600:FeesDetail>
+                  <c-0600:Total>736.34</c-0600:Total>
+               </c-0600:Amount>
+            </ctar-0600:PriceBreakdownAir>
+         </c-0600:PriceDetail>
+         <ctar-0600:TermsAndConditionsAir validatingCarrier="QF">
+            <ctar-0600:FareRuleInfo flightRefs="seg_21 seg_23" ruleNumber="70J"/>
+         </ctar-0600:TermsAndConditionsAir>
+      </ctlg-0600:CatalogOffering>
